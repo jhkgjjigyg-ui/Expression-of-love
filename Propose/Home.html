@@ -1,0 +1,234 @@
+<!-- ```html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Surprise ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating hearts -->
+    <div id="hearts"></div>
+
+    <!-- =========================
+         SCREEN 1 - INTRO
+    ========================== -->
+
+    <section class="screen active" id="screen1">
+
+        <div class="card">
+
+            <div class="small-heart">♡</div>
+
+            <p class="small-text">Hey you...</p>
+
+            <h1>I made something<br>for you ❤️</h1>
+
+            <p class="description">
+                It's nothing too crazy...
+                <br>
+                but I hope you'll stay until the end.
+            </p>
+
+            <button class="main-button" onclick="nextScreen(2)">
+                Open it ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 2 - MESSAGE
+    ========================== -->
+
+    <section class="screen" id="screen2">
+
+        <div class="content">
+
+            <p class="small-text">Before anything else...</p>
+
+            <h2>There's something<br>I want you to know.</h2>
+
+            <div class="message-box">
+
+                <p>
+                    Out of all the people I could have met,
+                    somehow I met you.
+                </p>
+
+                <p>
+                    And honestly...
+                    I'm really glad I did. ❤️
+                </p>
+
+            </div>
+
+            <button class="main-button" onclick="nextScreen(3)">
+                Keep going →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 3 - MEMORIES
+    ========================== -->
+
+    <section class="screen" id="screen3">
+
+        <div class="content">
+
+            <p class="small-text">Somehow...</p>
+
+            <h2>You became<br>someone special.</h2>
+
+            <div class="photos">
+
+                <!-- Replace these with your own photos -->
+
+                <div class="photo">
+                    <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=600&q=80"
+                         alt="Memory">
+                </div>
+
+                <div class="photo">
+                    <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=600&q=80"
+                         alt="Memory">
+                </div>
+
+                <div class="photo">
+                    <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=600&q=80"
+                         alt="Memory">
+                </div>
+
+            </div>
+
+            <p class="memory-text">
+                And every moment with you
+                became a memory I wanted to keep. ❤️
+            </p>
+
+            <button class="main-button" onclick="nextScreen(4)">
+                There's more...
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 4 - BUILDUP
+    ========================== -->
+
+    <section class="screen" id="screen4">
+
+        <div class="content">
+
+            <div class="big-heart">♡</div>
+
+            <p class="small-text">Okay...</p>
+
+            <h2>
+                I think it's time<br>
+                I tell you.
+            </h2>
+
+            <p class="description">
+                I've been thinking about this
+                for a while.
+            </p>
+
+            <button class="main-button" onclick="nextScreen(5)">
+                I'm ready ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 5 - PROPOSAL
+    ========================== -->
+
+    <section class="screen proposal-screen" id="screen5">
+
+        <div class="proposal-content">
+
+            <div class="ring">💍</div>
+
+            <p class="small-text">So...</p>
+
+            <h1 class="proposal-title">
+                Will you be<br>
+                my girlfriend?
+            </h1>
+
+            <p class="proposal-text">
+                ❤️ I really, really like you. ❤️
+            </p>
+
+            <div class="buttons">
+
+                <button class="yes-button" onclick="sayYes()">
+                    YES ❤️
+                </button>
+
+                <button class="shy-button" onclick="sayYes()">
+                    YES BUT I'M SHY 😭
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 6 - YES
+    ========================== -->
+
+    <section class="screen yes-screen" id="screen6">
+
+        <div class="yes-content">
+
+            <div class="celebration">🎉</div>
+
+            <h1>
+                SHE SAID YES! ❤️
+            </h1>
+
+            <p>
+                I knew you would... 😭❤️
+            </p>
+
+            <p class="final-message">
+                From this moment on,
+                let's make even more memories together.
+            </p>
+
+            <div class="big-love">
+                ❤️
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+<!-- ``` -->
